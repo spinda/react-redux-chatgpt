@@ -1,0 +1,41 @@
+{
+  "name": "counter-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Basic counter demo for react-redux-chatgpt",
+  "author": "Michael Smith <michael@spinda.net> (https://spinda.net)",
+  "license": "0BSD",
+  "homepage": "https://github.com/spinda/react-redux-chatgpt/tree/main/counter-example#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinda/react-redux-chatgpt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spinda/react-redux-chatgpt/issues"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "chatgpt",
+    "counter",
+    "demo"
+  ],
+  "source": "index.html",
+  "scripts": {
+    "client:build": "parcel build",
+    "client:serve": "parcel serve",
+    "client:watch": "parcel watch",
+    "fmt:check": "prettier --check .",
+    "fmt:write": "prettier --write ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-redux-chatgpt": "workspace:^0.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "prettier": "^2.8.1"
+  }
+}

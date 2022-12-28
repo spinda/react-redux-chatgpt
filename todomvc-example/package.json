@@ -1,0 +1,47 @@
+{
+  "name": "todomvc-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "TodoMVC implemented with React/Redux and react-redux-chatgpt",
+  "authors": [
+    "Dan Abramov <dan.abramov@me.com> (https://github.com/gaearon)",
+    "Andrew Clark <acdlite@me.com> (https://github.com/acdlite)",
+    "Michael Smith <michael@spinda.net> (https://spinda.net)"
+  ],
+  "homepage": "https://github.com/spinda/react-redux-chatgpt/tree/main/todomvc-example#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinda/react-redux-chatgpt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spinda/react-redux-chatgpt/issues"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "chatgpt",
+    "todomvc",
+    "demo"
+  ],
+  "source": "src/index.html",
+  "scripts": {
+    "client:build": "parcel build",
+    "client:serve": "parcel serve",
+    "client:watch": "parcel watch"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "process": "^0.11.10",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.0",
+    "react-redux-chatgpt": "workspace:^0.1.0",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0",
+    "todomvc-app-css": "^2.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}

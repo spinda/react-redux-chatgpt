@@ -1,0 +1,41 @@
+{
+  "name": "chatgpt-relay-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple REST API server for proxying commands to ChatGPT",
+  "author": "Michael Smith <michael@spinda.net> (https://spinda.net)",
+  "license": "0BSD",
+  "homepage": "https://github.com/spinda/react-redux-chatgpt/tree/main/chatgpt-relay-server#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinda/react-redux-chatgpt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spinda/react-redux-chatgpt/issues"
+  },
+  "keywords": [
+    "chatgpt",
+    "unofficial",
+    "rest",
+    "api",
+    "server"
+  ],
+  "bin": "server.mjs",
+  "scripts": {
+    "fmt:check": "prettier --check .",
+    "fmt:write": "prettier --write .",
+    "server:start": "node server.mjs"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "chatgpt": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "inquirer": "^9.1.4",
+    "puppeteer": "^19.4.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
