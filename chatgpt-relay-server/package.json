@@ -1,7 +1,6 @@
 {
   "name": "chatgpt-relay-server",
   "version": "0.1.0",
-  "private": true,
   "description": "Simple REST API server for proxying commands to ChatGPT",
   "author": "Michael Smith <michael@spinda.net> (https://spinda.net)",
   "license": "0BSD",
