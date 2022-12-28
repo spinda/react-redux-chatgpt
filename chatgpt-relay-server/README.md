@@ -1,5 +1,7 @@
 # `chatgpt-relay-server`
 
+[![npm: chatgpt-relay-server](https://img.shields.io/badge/npm-chatgpt--relay--server-0f80c0)](https://npmjs.com/package/chatgpt-relay-server)
+
 *See the [blog post](https://spindas.dreamwidth.org/4207.html) for more information!*
 
 [ChatGPT](https://chat.openai.com) doesn't have an official API yet, so this is a simple REST API server that proxies messages to a ChatGPT session running in a [Puppeteer](https://pptr.dev)-controlled browser instance (by way of the [`chatgpt`](https://www.npmjs.com/package/chatgpt) package). For ease of experimentation, the REST API server is [CORS-enabled](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), ***and will respond to requests from any origin, without authentication***.

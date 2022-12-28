@@ -1,5 +1,7 @@
 # `react-redux-chatgpt`
 
+[![npm: react-redux-chatgpt](https://img.shields.io/badge/npm-react--redux--chatgpt-0f80c0)](https://npmjs.com/package/react-redux-chatgpt)
+
 *See the [blog post](https://spindas.dreamwidth.org/4207.html) for more information!*
 
 This plugin can pretend to be your React/Redux app's backend by using [ChatGPT](https://chat.openai.com) as a universal reducer. It feeds the AI your store's initial state and, whenever an action is dispatched by your app, it forwards the action to the AI and asks for the next state.
